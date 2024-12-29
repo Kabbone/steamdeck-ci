@@ -30,6 +30,7 @@
     # Arbitrary packages with common Steam Deck modifications.
     # Feel free to add more with a PR!
     (cage.override ({ wlroots, ... }: { wlroots = wlroots.override { enableXWayland = false; }; })) # Useful for running Wayland-only apps in gamescope
-    (kodi-wayland.withPackages (kodiPackages: with kodiPackages; [ joystick ])) # Kodi with gamepad support
+    linuxPackages_latest.cpupower
+    linuxPackages_latest.turbostat
   ];
 }
