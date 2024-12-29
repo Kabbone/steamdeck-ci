@@ -9,7 +9,7 @@ other things.
 
 ## Usage
 
-Add https://hacker1024-jovian.cachix.org to your substituter list. The public
+Add https://kaptop.cachix.org to your substituter list. The public
 key is available on the website.
 
 This cache uses Cachix's free plan on my personal account, so it may not be able
@@ -23,7 +23,6 @@ not always succeed.
 
 ### Nixpkgs
 
-- `nixos-unstable-small`
 - `nixos-unstable`
 
 ### Jovian-NixOS
