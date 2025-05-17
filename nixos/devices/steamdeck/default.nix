@@ -29,7 +29,6 @@
   environment.systemPackages = with pkgs; [
     # Arbitrary packages with common Steam Deck modifications.
     # Feel free to add more with a PR!
-    (cage.override ({ wlroots, ... }: { wlroots = wlroots.override { enableXWayland = false; }; })) # Useful for running Wayland-only apps in gamescope
     linuxPackages_latest.cpupower
     linuxPackages_latest.turbostat
   ];
